@@ -1,7 +1,7 @@
 if (process.env.NODE_ENV !== 'production'){
     require('dotenv').config()
 }
-
+let port = process.env.PORT || 5000;
 const express = require('express')
 const passport = require('passport')
 const app = express()
@@ -320,4 +320,4 @@ async function update_room_info(new_info){
     return
 }
 
-app.listen(3000)
+app.listen(port)
