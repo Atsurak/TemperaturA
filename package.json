@@ -1,10 +1,10 @@
 {
   "name": "seproj",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend for a small scale temperature management system dashboard.",
   "main": "index.js",
   "scripts": {
-    "start" :"npm start",
+    "start": "node server.js",
     "devStart": "nodemon server.js"
   },
   "author": "",
